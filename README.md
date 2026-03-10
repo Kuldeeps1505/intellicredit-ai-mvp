@@ -6,7 +6,6 @@
 
 <div align="center">
 
-![Score](https://img.shields.io/badge/Hackathon%20Score-35%2F35-gold?style=for-the-badge)
 ![Pipeline](https://img.shields.io/badge/Pipeline%20Runtime-~4%20Minutes-blue?style=for-the-badge)
 ![Agents](https://img.shields.io/badge/AI%20Agents-7%20%2B%202%20Engines-purple?style=for-the-badge)
 ![Stack](https://img.shields.io/badge/India%20Stack-AA%20%2B%20GSTN%20Native-green?style=for-the-badge)
