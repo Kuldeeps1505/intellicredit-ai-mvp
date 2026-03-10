@@ -13,7 +13,7 @@
 <br />
 <br />
 
-<video src="./Video/demo-video.mp4" controls="controls" width="800" autoplay loop muted playsinline>
+<video src="./Video/preview.mp4" controls="controls" width="800" autoplay loop muted playsinline>
   Your browser does not support the video tag.
 </video>
 
