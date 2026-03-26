@@ -13,7 +13,7 @@
 <br />
 <br />
 
-![Demo Preview](./Video/preview.gif)
+![Demo Preview](./docs/assets/preview.gif)
 
 </div>
 
@@ -39,6 +39,55 @@
 - [Five-Cs Scoring Model](#-five-cs-scoring-model)
 - [Setup & Deployment](#-setup--deployment)
 - [Judge Q&A](#-judge-qa)
+
+---
+
+## 🗂 Repository Structure
+
+```text
+apps/
+  web/            # frontend
+  api/            # backend API scaffold
+  agent-runner/   # agent orchestration scaffold
+packages/
+  shared-types/
+  domain/
+  data-access/
+  config/
+docs/
+  api/
+  architecture/
+  assets/
+```
+
+## Setup & Deployment
+
+### Docker Compose
+
+1. Create env file:
+   `cp .env.example .env`
+2. Start the stack:
+   `docker compose up --build -d`
+3. Seed demo applications:
+   `docker compose run --rm --profile seed seed`
+4. Open the app:
+   `http://localhost:3000`
+
+### Services
+
+- `web`: Vite React frontend
+- `api`: FastAPI application server
+- `worker`: background pipeline runner
+- `postgres`: primary relational database
+- `redis`: queue + transient session state
+- `minio`: object storage for uploaded/generated documents
+- `chromadb`: optional retrieval/vector store dependency
+
+### Demo Mode Env Requirements
+
+- `ANTHROPIC_API_KEY` is optional for booting the stack and seeded demo flows
+- `SANDBOX_API_KEY` and `TAVILY_API_KEY` are optional in demo mode
+- live external-agent behavior will be limited until those credentials are supplied
 
 ---
 
