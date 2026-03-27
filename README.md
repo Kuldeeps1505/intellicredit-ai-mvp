@@ -311,9 +311,6 @@ buyer_concentration -- buyer_gstin, buyer_name, invoice_total,
 ---
 
 # Impact & Feasibility
-
-> Autonomous Corporate Credit Intelligence · IIT Hyderabad Hackathon 2026
-
 ---
 
 ## ⚡ Impact
