@@ -23,43 +23,6 @@
 
 ---
 
-## 📋 Table of Contents
-
-- [The Problem](#-the-problem)
-- [Our Solution](#-our-solution)
-- [Hackathon Score Breakdown](#-hackathon-score-breakdown)
-- [The 7-Agent Pipeline](#-the-7-agent-pipeline)
-- [Innovation Highlights](#-innovation-highlights)
-- [Tech Stack](#-tech-stack)
-- [Database Schema](#-database-schema-13-tables)
-- [Databricks Production Architecture](#-databricks-production-architecture)
-- [API Reference](#-api-reference)
-- [Frontend — 6 Pages](#-frontend--6-pages)
-- [Demo Datasets](#-demo-datasets)
-- [Five-Cs Scoring Model](#-five-cs-scoring-model)
-- [Setup & Deployment](#-setup--deployment)
-- [Judge Q&A](#-judge-qa)
-
----
-
-## 🗂 Repository Structure
-
-```text
-apps/
-  web/            # frontend
-  api/            # backend API scaffold
-  agent-runner/   # agent orchestration scaffold
-packages/
-  shared-types/
-  domain/
-  data-access/
-  config/
-docs/
-  api/
-  architecture/
-  assets/
-```
-
 ## Setup & Deployment
 
 ### Docker Compose
