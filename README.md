@@ -128,20 +128,8 @@ IntelliCredit AI is a **7-agent AI pipeline** that takes raw documents or Accoun
 - Downloadable as professional **PDF** and **DOCX**
 - Generated in **< 4 minutes** vs 3–6 weeks manually
 
----
 
-## 🏆 Hackathon Score Breakdown
 
-| Criterion | What We Demonstrate | Score |
-|-----------|---------------------|-------|
-| **Problem Relevance** | India Stack AA Framework + Account Aggregator consent flow + India's NPA data paradox | 10/10 |
-| **Software Design** | GSTR-2A/3B reconciliation engine + Chain of Evidence provenance + FinBERT NLP + 7-agent LangGraph DAG | 10/10 |
-| **Feasibility** | Sandbox.co.in real GSTN API (live demo), Logistic Regression scorecard (industry standard, fully defensible) | 5/5 |
-| **Novelty** | Counterfactual explainability (no Indian tool does this) + Buyer Concentration from GSTR-1 (no tool does this) + ITC reconciliation | 5/5 |
-| **Tech Stack** | Databricks Bronze/Silver/Gold architecture + MLflow + FinBERT + LangGraph + Sandbox.co.in API | 5/5 |
-| **TOTAL** | | **35/35** |
-
----
 
 ## 🤖 The 7-Agent Pipeline
 
